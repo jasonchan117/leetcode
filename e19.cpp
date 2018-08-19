@@ -4,9 +4,6 @@
 	> Mail: 
 	> Created Time: 2018年07月21日 星期六 16时47分41秒
  ************************************************************************/
-
-#include<iostream>
-using namespace std;
 struct ListNode* removeNthFromEnd(struct ListNode* head, int n) {
         struct ListNode list={0};
         list.next=head;
